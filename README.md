@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **"Code like you're writing a novel, not a grocery list.  Don't just list out instructions, tell a story! Clear, descriptive variable names and well-structured functions make your code a joy to read (and debug!), even for your future self, who might be a grumpy, sleep-deprived version of you."**
+- **Tip:**  Don't be afraid to use comments!  It's like leaving yourself a note in the future, except instead of saying "Buy milk," you're saying, "This code does X, and here's why it's a good idea, even if it looks crazy."  Future you will thank you.  (Unless future you is a grumpy, sleep-deprived version of you who just wants to get the code working, in which case, they might just delete your comments and curse your name.  But hey, at least they'll know what they're cursing.)
 
 ---
 
-### 📅 Last Updated: 2024-11-13 22:21
+### 📅 Last Updated: 2024-11-13 23:21
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
