@@ -1,0 +1,41 @@
+name: Update Daily Developer Tip
+
+on:
+  schedule:
+    - cron: "0 * * * *" # Runs every hour
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches:
+      - main
+
+jobs:
+  update-tip:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install google-generativeai
+          pip install python-dotenv
+
+      - name: Generate and Update README
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python generateTip.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "gmahadik8080@gmail.com"
+          git config --local user.name "Gitesh08"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update daily developer tip"
+          git push
