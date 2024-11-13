@@ -9,10 +9,31 @@ load_dotenv()
 # Initialize the Gemini model with your API key
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
+def format_tip(tip):
+    """
+    Formats the generated tip to make it more visually appealing in the README.
+    
+    Parameters:
+    tip (str): The generated tip to be formatted.
+    
+    Returns:
+    str: The formatted tip.
+    """
+    # Split the tip into lines
+    lines = tip.strip().split("\n")
+    
+    # Format each line with Markdown styling
+    formatted_lines = [f"- {line.strip()}" for line in lines]
+    
+    # Join the formatted lines back into a single string
+    formatted_tip = "\n".join(formatted_lines)
+    
+    return formatted_tip
+
 def get_gemini_response(prompt):
     try:
         model = genai.GenerativeModel('gemini-1.5-flash')
-
+        
         # Safety settings
         safety_settings = [
             {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
@@ -20,7 +41,7 @@ def get_gemini_response(prompt):
             {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
             {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_MEDIUM_AND_ABOVE"}
         ]
-
+        
         # Generate content with safety settings
         response = model.generate_content(
             prompt,
@@ -32,7 +53,10 @@ def get_gemini_response(prompt):
                 "max_output_tokens": 2048,
             }
         )
-        return response.text.strip()
+        
+        # Format the generated tip
+        formatted_tip = format_tip(response.text.strip())
+        return formatted_tip
     except Exception as e:
         print(f"Error in get_gemini_response: {e}")
         return "Oops! Couldn't fetch a tip right now. Try again later."
@@ -48,13 +72,7 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-<table align="center" cellpadding="10" cellspacing="0" style="background-color: #f4f4f4; border-radius: 8px; max-width: 600px; width: 100%;">
-  <tr>
-    <td>
-      <h3 style="color: #2F80ED; margin: 0;">"{tip}"</h3>
-    </td>
-  </tr>
-</table>
+{tip}
 
 ---
 
@@ -64,9 +82,7 @@ Keep coding, keep improving, and don't forget to laugh along the way! Want to co
 
 ---
 
-<div align="center">
-    Made with ❤️ by an automated script powered by <strong>Google Gemini Flash</strong>.
-</div>
+Made with ❤️ by an automated script powered by **Google Gemini Flash**.
 """
     with open("README.md", "w") as file:
         file.write(readme_content)
