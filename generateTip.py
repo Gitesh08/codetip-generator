@@ -2,13 +2,12 @@ import datetime
 import google.generativeai as genai
 from dotenv import load_dotenv
 import os
-import time
 
 # Load environment variables
 load_dotenv()
 
 # Initialize the Gemini model with your API key
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 def get_gemini_response(prompt):
     try:
@@ -38,17 +37,9 @@ def get_gemini_response(prompt):
         print(f"Error in get_gemini_response: {e}")
         return "Oops! Couldn't fetch a tip right now. Try again later."
 
-def generate_readme(tip, next_tip_time):
-    while True:
-        today = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
-        time_remaining = next_tip_time - datetime.datetime.now()
-        hours, remainder = divmod(time_remaining.total_seconds(), 3600)
-        minutes, seconds = divmod(remainder, 60)
-
-        if time_remaining.total_seconds() <= 0:
-            hours, minutes, seconds = 0, 0, 0
-            next_tip_time = datetime.datetime.now() + datetime.timedelta(hours=1)
-        readme_content = f"""
+def generate_readme(tip):
+    today = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+    readme_content = f"""
 # 🌟 Daily Developer Tips
 
 Welcome to the **Daily Developer Tips** repository! This space is dedicated to providing concise, practical, and often witty insights to make your coding journey smoother and more enjoyable.
@@ -60,7 +51,7 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 <table align="center" cellpadding="10" cellspacing="0" style="background-color: #f4f4f4; border-radius: 8px; max-width: 600px; width: 100%;">
   <tr>
     <td>
-      <h4 style="color: #2F80ED; margin: 0;">"{tip}"</h4>
+      <h2 style="color: #2F80ED; margin: 0;">"{tip}"</h2>
     </td>
   </tr>
 </table>
@@ -74,19 +65,11 @@ Keep coding, keep improving, and don't forget to laugh along the way! Want to co
 ---
 
 <div align="center">
-    The next tip will be available at {next_tip_time}.
-</div>
-
----
-
-<div align="center">
     Made with ❤️ by an automated script powered by <strong>Google Gemini Flash</strong>.
 </div>
 """
-        with open("README.md", "w") as file:
-          file.write(readme_content)
-        time.sleep(1)  # Wait for 1 second before updating the timer
-        os.system('cls' if os.name == 'nt' else 'clear') 
+    with open("README.md", "w") as file:
+        file.write(readme_content)
 
 if __name__ == "__main__":
     system_prompt = (
@@ -97,7 +80,7 @@ if __name__ == "__main__":
 
     try:
         new_tip = get_gemini_response(system_prompt)
-        next_tip_time = datetime.datetime.now() + datetime.timedelta(hours=1)
-        generate_readme(new_tip, next_tip_time)
+        generate_readme(new_tip)
+        print("README generated and updated successfully.")
     except Exception as e:
         print(f"Error in generating or updating README: {e}")
