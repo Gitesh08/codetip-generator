@@ -8,7 +8,7 @@ import time
 load_dotenv()
 
 # Initialize the Gemini model with your API key
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
 
 def get_gemini_response(prompt):
     try:
