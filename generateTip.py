@@ -51,7 +51,7 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 <table align="center" cellpadding="10" cellspacing="0" style="background-color: #f4f4f4; border-radius: 8px; max-width: 600px; width: 100%;">
   <tr>
     <td>
-      <h2 style="color: #2F80ED; margin: 0;">"{tip}"</h2>
+      <h3 style="color: #2F80ED; margin: 0;">"{tip}"</h3>
     </td>
   </tr>
 </table>
