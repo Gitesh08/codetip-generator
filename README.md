@@ -7,13 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **"Code like you're writing a recipe for a time traveler. Be precise, be clear, and for the love of all that's holy, include units!"**
-- 
-- Think about it:  your code is a set of instructions for a future you, or a future colleague.  They need to understand exactly what you meant, even if they've been transported through time and space.  Clear variable names, concise comments, and consistent units will make your code a time-traveling masterpiece, not a cryptic message from another dimension.
+- **Don't be a code hoarder.  Write comments like you're leaving your code for a future you who's inexplicably forgotten everything.**  You'll thank yourself (and your colleagues) later.
 
 ---
 
-### 📅 Last Updated: 2024-11-15 10:25
+### 📅 Last Updated: 2024-11-15 11:19
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
