@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **Pro Tip:**  Before you write a single line of code, spend 5 minutes sketching out your solution on a napkin (or whiteboard, if you're feeling fancy).  Trust me, debugging napkin-code is way easier than debugging 500 lines of spaghetti.  Plus, it's surprisingly satisfying to crumple up a particularly bad idea.
+- **Comment your code like you're explaining it to your future self (who's mysteriously forgotten everything).**  Your future self will thank you (and possibly send you a fruit basket...or at least a virtual high-five).
 
 ---
 
-### 📅 Last Updated: 2024-11-16 23:23
+### 📅 Last Updated: 2024-11-17 01:57
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
