@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **Pro Tip:**  Before you write a single line of code,  sketch out your solution on a napkin (or whiteboard, if you're feeling fancy).  Trust me, debugging a napkin doodle is way easier than debugging a thousand lines of code fueled by caffeine and despair.  Think of it as preventative programming – for your sanity.
+- **Pro Tip:**  Before you spend hours wrestling a bug,  **`print()` your variables' values.** (Or its equivalent in your language – `console.log()`, `Debug.Log()`, etc.).  It's the digital equivalent of shouting, "What the heck are you *doing*?!" at your code.  Surprisingly effective.  Often, the answer yells right back.
 
 ---
 
-### 📅 Last Updated: 2024-11-18 22:22
+### 📅 Last Updated: 2024-11-18 23:22
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
