@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **The "Rubber Duck Debugging" Rule:** Before you unleash your code upon the unsuspecting world (or your poor, sleep-deprived colleagues), explain your code, line by line, to a rubber duck.  Seriously.  Talking it out forces you to articulate your logic, often revealing the silly mistake hiding in plain sight.  It's cheaper than therapy, and the duck won't judge your questionable variable names.
+- **Comment your code like you're explaining it to your future self (who's mysteriously forgotten everything).**  Future you will thank you—and your sanity will, too.  (Seriously, that cryptic mess you wrote last week?  Yeah, *that* future you.)
 
 ---
 
-### 📅 Last Updated: 2024-11-18 01:55
+### 📅 Last Updated: 2024-11-18 03:03
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
