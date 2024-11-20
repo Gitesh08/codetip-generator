@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **Comment your code like you're explaining it to your future self (who's mysteriously forgotten everything).**  That grumpy, sleep-deprived version of you will thank you profusely.  Seriously, future you will buy you coffee. (Probably.)
+- **Pro Tip:**  Before wrestling with a bug for hours,  **Google it first.**  Seriously.  You're not the first person to have that "brilliant" idea that produces a cryptic error message.  Save yourself the frustration (and maybe some hair).  You might even find a hilarious Stack Overflow thread while you're at it!
 
 ---
 
-### 📅 Last Updated: 2024-11-20 03:35
+### 📅 Last Updated: 2024-11-20 03:36
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
