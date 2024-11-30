@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **Pro Tip:**  Before you spend hours wrestling with a bug,  *Google it*. Seriously.  You're not the first person to fight that particular digital dragon.  Chances are, someone's already slain it and posted the victory dance (aka, the solution) online.  Save your sanity, and your hair.
+- **Comment your code like you're explaining it to a grumpy, caffeine-deprived coworker who's about to inherit your project.  Future you (and everyone else) will thank you.**
 
 ---
 
-### 📅 Last Updated: 2024-11-30 12:16
+### 📅 Last Updated: 2024-11-30 16:10
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
