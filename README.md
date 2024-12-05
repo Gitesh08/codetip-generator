@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **Pro Tip:**  Before wrestling with a bug for hours,  **Google it first.**  Seriously.  You're not the first person to experience that "TypeError: Cannot read properties of undefined (reading 'whatever')"  (or its equally charming cousins).  Save yourself the existential dread and let the collective wisdom of the internet (and Stack Overflow's army of helpful nerds) guide you. You might even find a hilarious solution along the way!
+- **"Comment your code like you're explaining it to a grumpy, sleep-deprived vampire.  Be precise, be concise, and for the love of all that is holy, *be clear*.  Future you (and your colleagues) will thank you – or at least, they won't curse your name in the digital afterlife."**
 
 ---
 
-### 📅 Last Updated: 2024-12-05 00:49
+### 📅 Last Updated: 2024-12-05 04:12
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
