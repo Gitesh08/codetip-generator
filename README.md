@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **Comment your code like you're explaining it to your future, slightly grumpy self.**  (Future you will thank you.  Seriously, even if you *think* you'll remember why you did that weird thing with the nested loops, you won't.)
+- **Pro Tip:**  Before you write a single line of code,  sketch out your solution on a napkin (or a whiteboard, if you're feeling fancy).  Trust me, debugging a napkin is *way* easier than debugging 500 lines of code fueled by caffeine and despair.  Think of it as preemptive code therapy.
 
 ---
 
-### 📅 Last Updated: 2024-12-08 16:10
+### 📅 Last Updated: 2024-12-08 20:09
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
