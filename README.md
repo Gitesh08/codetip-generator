@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **Pro Tip:**  Before wrestling with a bug for hours,  **Google it first.**  Seriously.  You're not the first person to experience the joys of a mysteriously disappearing semicolon (or whatever your current nemesis is).  Save yourself the frustration – let the collective wisdom of the internet (and Stack Overflow's legions of caffeine-fueled heroes) do the heavy lifting.  You might even learn something new!  (And maybe discover that your "genius" solution was already invented in 1998.)
+- **Comment your code like you're explaining it to a grumpy, caffeine-deprived goblin.**  Be precise, be clear, and for the love of all that is holy, be concise.  Future you (and anyone else unfortunate enough to touch your code) will thank you.
 
 ---
 
-### 📅 Last Updated: 2024-12-15 08:12
+### 📅 Last Updated: 2024-12-15 12:16
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
