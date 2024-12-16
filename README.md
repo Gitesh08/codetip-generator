@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **Comment your code like you're explaining it to a grumpy, caffeine-deprived coworker who's about to inherit your project.  Future you (and that coworker) will thank you.**
+- **Pro Tip:**  Before you write a single line of code,  sketch out your solution on a napkin (or whiteboard, if you're feeling fancy).  Trust me, debugging a napkin is *way* easier than debugging a thousand lines of code fueled by caffeine and despair.  Think of it as preemptive code therapy.
 
 ---
 
-### 📅 Last Updated: 2024-12-15 20:10
+### 📅 Last Updated: 2024-12-16 00:51
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
