@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **Comment your code like you're explaining it to your future, slightly less intelligent self (who may or may not be hungover).**  Because trust me, future you will thank present you.  And present you will thank future you for not having to decipher cryptic spaghetti code.
+- **Pro Tip:**  Before wrestling with a bug for hours,  *Google it first*.  Seriously.  You're not the first person to experience the joys of a mysterious semicolon error (or whatever beast is haunting your code).  Save yourself the frustration – let the collective wisdom of the internet be your debugging superpower.  (And if you *still* can't find the answer, *then* you can start pulling your hair out.)
 
 ---
 
-### 📅 Last Updated: 2024-12-16 08:14
+### 📅 Last Updated: 2024-12-16 12:19
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
