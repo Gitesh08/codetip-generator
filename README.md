@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **Pro Tip:**  Before you spend hours debugging that cryptic error,  *Google it*.  Seriously.  You're not the first person to wrestle with a semicolon in the wrong place (or whatever your particular beast is).  Someone's already written a Stack Overflow answer, probably with a hilarious comment thread.  Save yourself the frustration – let the internet do the heavy lifting (and the comedic relief).
+- **Comment your code like you're explaining it to a grumpy, caffeine-deprived goblin.**  Be precise, be clear, and for the love of all that is holy, be concise.  Future you (and anyone else unfortunate enough to touch your code) will thank you.
 
 ---
 
-### 📅 Last Updated: 2024-12-17 20:10
+### 📅 Last Updated: 2024-12-18 00:46
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
