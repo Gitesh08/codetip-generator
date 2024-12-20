@@ -2,7 +2,7 @@ name: Update Daily Developer Tip
 
 on:
   schedule:
-    - cron: "0 */4 * * *" # Runs in every 4 hour
+    - cron: "0 */8 * * *" # Runs in every 8 hour
   workflow_dispatch: # Allow manual trigger
   push:
     branches:
