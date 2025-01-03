@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **Pro Tip:**  Before you write a single line of code, spend 5 minutes sketching out your solution on paper (or a whiteboard, if you're feeling fancy).  It's like planning a road trip – you wouldn't just hop in your car and start driving, would you?  (Unless you enjoy getting hopelessly lost in a sea of semicolons.)  Planning saves debugging headaches later.
+- **Comment your code like you're explaining it to a grumpy, sleep-deprived vampire:**  Concisely, but with enough detail that even *he* can understand what's happening.  Future you (who's also probably grumpy and sleep-deprived) will thank you.
 
 ---
 
-### 📅 Last Updated: 2025-01-02 16:20
+### 📅 Last Updated: 2025-01-03 01:16
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
