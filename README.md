@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **"Comment your code like you're explaining it to a grumpy, caffeine-deprived vampire.  Be precise, be thorough, and for the love of all that is holy, be clear.  Future you (and your colleagues) will thank you – or at least, they won't curse your name in a blood-curdling scream."**
+- **Comment your code like you're explaining it to a grumpy, sleep-deprived badger.**  Be precise, be clear, and for the love of all that is holy, *be concise*.  Future you (and anyone else unfortunate enough to touch your code) will thank you.  (And the badger might even offer a begrudging nod.)
 
 ---
 
-### 📅 Last Updated: 2025-01-08 01:16
+### 📅 Last Updated: 2025-01-08 08:21
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
