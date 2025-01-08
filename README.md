@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **Pro Tip:**  Before you write a single line of code wrestling with a complex problem, spend 5 minutes sketching it out on paper (or a whiteboard, if you're feeling fancy).  Trust me, debugging your thought process is way easier than debugging 500 lines of spaghetti code fueled by caffeine and despair.  You'll thank your past self (and maybe your future therapist).
+- **"Comment your code like you're explaining it to a grumpy, caffeine-deprived vampire.  Be precise, be thorough, and for the love of all that is holy, be clear.  Future you (and your colleagues) will thank you – or at least, they won't curse your name in a blood-curdling scream."**
 
 ---
 
-### 📅 Last Updated: 2025-01-07 16:33
+### 📅 Last Updated: 2025-01-08 01:16
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
