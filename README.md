@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **Pro Tip:**  Before you spend hours debugging that cryptic error,  *Google it first*.  Seriously.  Someone else probably cried over that same problem already, and their tears have spawned a helpful Stack Overflow post.  You're welcome. 😉
+- **Comment your code like you're explaining it to a grumpy, caffeine-deprived coworker who also happens to be your boss.**  They won't appreciate ambiguity; neither will your future self.
 
 ---
 
-### 📅 Last Updated: 2025-01-24 16:19
+### 📅 Last Updated: 2025-01-25 01:10
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
