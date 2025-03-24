@@ -7,11 +7,11 @@ Welcome to the **Daily Developer Tips** repository! This space is dedicated to p
 
 ## 💡 Today's Tip
 
-- **"Comment your code like you're explaining it to your future, grumpy self.  Future you will thank you (and possibly buy you coffee).  Seriously, trust me on this one."**
+- **"Comment your code like you're explaining it to a grumpy, caffeine-deprived vampire.  Be precise, be clear, and for the love of all that is holy, leave no ambiguity.  Future you (and everyone else) will thank you."**
 
 ---
 
-### 📅 Last Updated: 2025-03-24 08:23
+### 📅 Last Updated: 2025-03-24 16:23
 
 Keep coding, keep improving, and don't forget to laugh along the way! Want to contribute or suggest tips? Open an issue or pull request!
 
